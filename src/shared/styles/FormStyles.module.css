@@ -1,0 +1,56 @@
+.formContainer {
+    flex: 1;
+}
+
+.formContainer h1 {
+    color: var(--dark-blue);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.formContainer form {
+    width: 100%;
+}
+.formContainer .input {
+    display: flex;
+    border: 1px solid lightgray;
+}
+.input label {
+    background: var(--dark-blue);
+    padding: 1rem;
+    color: white;
+    flex: 0.3;
+    max-width: 250px;
+}
+.input input {
+    padding: 1rem;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.input select {
+    padding: 1rem;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+}
+select::selection {
+    color: blue;
+}
+
+.formActions {
+    margin-top: 2rem;
+    background: var(--dark-blue);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+.formActions button {
+    margin: 0 1rem;
+    width: 100px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}

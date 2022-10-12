@@ -1,0 +1,119 @@
+.mainScreen {
+    padding: calc(5vh + 5vw);
+    min-height: 100vh;
+}
+
+.headerTitle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.headerTitle h1 {
+    text-transform: uppercase;
+    color: var(--dark-blue);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 300px;
+    width: 75%;
+}
+.search button,
+.search button:hover {
+    border-radius: 0;
+    color: white;
+    background-color: var(--dark-blue);
+    padding: 0.6rem;
+}
+.search input {
+    width: 0;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+}
+
+.listHeadings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewFooter .viewBottom {
+    margin-top: 4rem;
+    padding: 2rem;
+    background: var(--dark-blue);
+}
+.viewFooter .viewFooterActions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewFooter .viewFooterActions button {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.table {
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+.table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table tr th,
+.table tr td {
+    border: 1px solid lightgray;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    min-width: fit-content;
+}
+
+.table tr th:nth-child(1),
+.table tr td:nth-child(1) {
+    max-width: 75px;
+}
+.table tr td:nth-child(1) {
+    background: var(--dark-blue);
+    color: white;
+}
+.table tr td:last-child {
+    padding: 0.5rem 1rem;
+}
+
+.table tr th {
+    background: var(--dark-blue);
+    flex: 1;
+    color: white;
+}
+.table tr td {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table tr th:last-child,
+.table tr td:last-child {
+    min-width: 150px;
+}
+.table tr td button,
+.table tr td button:hover {
+    background: var(--dark-blue);
+    color: white;
+}

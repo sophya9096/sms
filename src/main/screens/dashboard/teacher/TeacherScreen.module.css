@@ -1,0 +1,96 @@
+.teacherScreenMain {
+    padding: calc(5vh + 5vw);
+    min-height: 100vh;
+}
+
+.headerTitle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.headerTitle h1 {
+    text-transform: uppercase;
+    color: var(--dark-blue);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 300px;
+    width: 75%;
+}
+.search button,
+.search button:hover {
+    border-radius: 0;
+    color: white;
+    background-color: var(--dark-blue);
+    padding: 0.6rem;
+}
+.search input {
+    width: 0;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+}
+
+.viewFooter .viewBottom {
+    margin-top: 4rem;
+    padding: 2rem;
+    background: var(--dark-blue);
+}
+.viewFooter .viewFooterActions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewFooter .viewFooterActions button {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+/* teacherEditScreen */
+
+.teacherEditScreen {
+    padding: calc(5vh + 5vw);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Profile {
+    border-radius: 0.5rem;
+    background: var(--dark-blue);
+    padding: 2rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 15px solid var(--dark-orange);
+    margin-right: 3rem;
+}
+.Profile img {
+    width: 175px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.Profile button,
+.Profile button:hover {
+    margin: auto;
+    width: fit-content;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: var(--dark-orange);
+}

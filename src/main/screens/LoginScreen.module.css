@@ -1,0 +1,86 @@
+.loginScreen {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.background {
+  position: absolute;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IzmOIKXr_ZR_5AxAWQ72cx41pTNCw544QQ&usqp=CAU")
+    center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(0.5rem);
+  opacity: 0.35;
+}
+.bottom {
+  z-index: 9999;
+  position: absolute;
+  bottom: 0;
+  background: var(--dark-blue);
+  display: block;
+  width: 100%;
+}
+.bottom p {
+  color: white;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.main {
+  position: absolute;
+
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main h1 {
+  color: var(--dark-blue);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.main .mainBox {
+  width: 400px;
+  height: 380px;
+  background: var(--dark-blue);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.main .mainBox .input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.input label {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.input input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+}
+
+.mainBox .actions {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainBox .actions button {
+  width: 100px;
+  color: var(--dark-blue);
+}

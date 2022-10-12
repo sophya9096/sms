@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    background: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    padding-left: 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    transition: 0.3s ease;
+}
+.shadow {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.headerLeft {
+    width: 300px;
+    text-align: center;
+}
+.headerLeft h1 {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.headerLeft h1 a {
+    color: white;
+    text-decoration: none;
+}
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.headerRight .date {
+    padding-right: 15px;
+}
+
+.headerRight .actions {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.headerRight .actions button {
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+}

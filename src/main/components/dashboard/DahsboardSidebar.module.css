@@ -1,0 +1,41 @@
+.sidebar {
+  min-width: 300px;
+  min-height: 100vh;
+  background: var(--dark-orange);
+}
+.sidebarTop {
+  height: 250px;
+  border-bottom: 3px solid var(--dark-blue);
+  position: relative;
+}
+.sidebarTop .sidebarProfile {
+  position: absolute;
+  bottom: 15px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebarTop .sidebarProfile img {
+  border-radius: 50%;
+  width: 125px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.sidebarTop .sidebarProfile h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.sidebarTop .sidebarTopBlue {
+  height: 50%;
+  background: var(--dark-blue);
+}
+.sidebarTop .sidebarTopOrange {
+  height: 50%;
+  background: var(--dark-orange);
+}
+.sidebarMain * {
+  color: white;
+}

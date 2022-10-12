@@ -1,0 +1,34 @@
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.listItem h3 {
+    background: var(--dark-blue);
+    height: 100%;
+    color: white;
+    padding: 0.8rem;
+    font-weight: 400;
+    flex: 0.5;
+    min-width: max-content;
+}
+.listItem p {
+    flex: 1;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.listItem .actions {
+    border-left: 1px solid lightgray;
+    padding: 0.4rem 0;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.listItem .actions button {
+    background: var(--dark-blue);
+    color: white;
+}
